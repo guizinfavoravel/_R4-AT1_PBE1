@@ -36,3 +36,4 @@ app.get('/operacao/:tipo', (req, res) => {
 app.listen(port, () => {
     console.log(`Servidor rodando em http://localhost:${port}`);
 });
+//3 . http://localhost:3000/operacao/soma?numUm=10&numDois=5

@@ -38,3 +38,4 @@ app.get("/calculadora", (req, res) => {
 app.listen(PORT, () => {
   console.log(`o servidor esta rodando em localhostt ${PORT}`)
 });
+//2. http://localhost:8081/calculadora?operacao=soma&numUm=10&numDois=5

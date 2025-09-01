@@ -27,3 +27,4 @@ app.get('/saudacao/:nome', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Servidor rodando em http://localhost:${PORT}`);
 })});
+//5.http://localhost:8081/saudacao/Joao?hora=14

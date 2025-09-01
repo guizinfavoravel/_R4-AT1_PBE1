@@ -34,3 +34,4 @@ app.get('/imc', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Servidor rodando em http://localhost:${PORT}`);
 })});
+//6. http://localhost:8081/imc?peso=70&altura=1.75
